@@ -11,7 +11,7 @@ void hanoi(int n, char kaynak, char hedef, char yardimci) {
 }
 
 int main() {
-    int n = 3; // İstersen disk sayısını buradan değiştirirsin
+    int n = 3; 
     printf("--- Hanoi Kuleleri Cozumu (%d Disk) ---\n", n);
     hanoi(n, 'A', 'C', 'B');
     return 0;
